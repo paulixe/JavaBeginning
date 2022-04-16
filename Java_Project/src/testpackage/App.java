@@ -9,8 +9,9 @@ public class App {
         north, east, south, west;
     }
     public static void main(String[] args) throws Exception {
-        TestEnum(Direction.north);
+        TestInheritance.Test2();
     }
+
     public static void TestEnum(Direction direction)
     {
         switch (direction) {

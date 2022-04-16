@@ -5,9 +5,30 @@ import java.util.Scanner; //for FindNumberGame
 import javax.management.ValueExp;
 
 public class App {
+    enum Direction{
+        north, east, south, west;
+    }
     public static void main(String[] args) throws Exception {
-        FindNumber();
-            
+        TestEnum(Direction.north);
+    }
+    public static void TestEnum(Direction direction)
+    {
+        switch (direction) {
+            case north:
+            System.out.println("You are heading north");
+            break;
+            case east:
+                System.out.println("You are heading east");
+                break;
+            case south:
+                System.out.println("You are heading south");
+                break;
+            case west:
+                System.out.println("You are heading west");
+                break;
+            default:
+            Print("You are lost");
+        }
     }
     public static void FindNumber()
     {

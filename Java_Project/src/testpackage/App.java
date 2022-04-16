@@ -9,9 +9,17 @@ public class App {
         north, east, south, west;
     }
     public static void main(String[] args) throws Exception {
-        TestInheritance.Test2();
+        TestSet.Test3();
     }
-
+    public static void TestString()
+    {
+        String s1="ABCDE";
+        String s2=s1;
+        s2+="AAAAAAAAAAAA";
+        Print(s1);
+        Print(s2);
+        // Ok String are not references type
+    }
     public static void TestEnum(Direction direction)
     {
         switch (direction) {

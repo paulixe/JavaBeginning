@@ -2,7 +2,6 @@ package testpackage;
 import java.util.Scanner; //for FindNumberGame
 //import anotherpackage.classInAnotherPackage;
 
-import javax.management.ValueExp;
 
 public class App {
     enum Direction{

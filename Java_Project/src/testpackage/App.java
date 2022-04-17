@@ -6,7 +6,7 @@ package testpackage;
 public class App {
 
     public static void main(String[] args) throws Exception {
-        TestReadFile.TestRead();
+        TestInterface.Test();
     }
     
     public static void Print(String s)
